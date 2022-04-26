@@ -21,16 +21,16 @@ closeDrawerIcon.addEventListener("click", closeDrawer);
 navLink.forEach((el) => el.addEventListener("click", closeDrawer));
 
 const makeUnderLine = () => {
-  if (window.location.pathname === "/") {
+  if (window.location.pathname === "/photo/") {
     navContainer[0].classList.add("nav-active");
   }
-  if (window.location.pathname === "/pages/gallery.html") {
+  if (window.location.pathname === "/photo/pages/gallery.html") {
     navContainer[1].classList.add("nav-active");
   }
-  if (window.location.pathname === "/pages/quiz.html") {
+  if (window.location.pathname === "/photo/pages/quiz.html") {
     navContainer[2].classList.add("nav-active");
   }
-  if (window.location.pathname === "/pages/about.html") {
+  if (window.location.pathname === "/photo/pages/about.html") {
     navContainer[3].classList.add("nav-active");
   }
 };
