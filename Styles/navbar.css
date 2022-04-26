@@ -1,0 +1,124 @@
+nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #536872;
+}
+
+nav .logo {
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 25px 0;
+  color: white;
+}
+
+nav .menu-icon {
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 10px 0;
+  color: white;
+}
+
+nav .nav-list {
+  right: 0;
+  top: 0;
+  background-color: #708090;
+  overflow-x: hidden;
+  width: 0;
+  height: 100vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  z-index: 10;
+}
+
+nav .nav-list div {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}
+
+nav .nav-list li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+nav .nav-list li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+nav .open {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  nav .menu-icon {
+    display: none;
+  }
+  nav .logo {
+    font-size: 24px;
+  }
+  nav .nav-list {
+    position: relative;
+    height: auto;
+    width: auto;
+    background-color: initial;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  nav .nav-list li {
+    border-bottom: 2px solid transparent;
+    padding: 0;
+    margin: 0 20px;
+  }
+  nav .nav-list li:hover {
+    border-bottom-color: white;
+  }
+  nav .nav-list .nav-active {
+    border-bottom-color: white !important;
+  }
+  nav .nav-list div {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav .logo {
+    font-size: 28px;
+  }
+  nav .nav-list li a {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

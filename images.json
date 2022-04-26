@@ -1,0 +1,170 @@
+[
+  {
+    "id": 21,
+    "image": "https://i.ibb.co/Wf0Jk4g/Metro-trains1-ALSO-HEADER.webp",
+    "location": "SW77th Ave Miami,FL",
+    "artist": "MUL",
+    "category": "transit"
+  },
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/KxVkyTj/Atomik.webp",
+    "location": "Wynwood",
+    "artist": "Atomik",
+    "category": "pieces"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/NxtcF6t/Miami-Style-Gods.webp",
+    "location": "Wynwood",
+    "artist": "MSG(Miami Style Gods)",
+    "category": "pieces"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/RD1KXCy/nemek.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Nemek",
+    "category": "pieces"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/cgwpzc4/Quirk.webp",
+    "location": "Wynwood TriRail tracks",
+    "artist": "Quirk",
+    "category": "pieces"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/mbyrYdW/Reds.webp",
+    "location": "Wynwood NW 25th St",
+    "artist": "Reds",
+    "category": "pieces"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/mbyrYdW/Reds.webp",
+    "location": "Wynwood Miami Ave",
+    "artist": "Tesoe 004",
+    "category": "pieces"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/GHKt6jh/Topoe.webp",
+    "location": "Topoe",
+    "artist": "Wynwood inbetween parking lot of NW 24th St & NW 25th St",
+    "category": "pieces"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/j40gxmH/Vulgr.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Vulgs",
+    "category": "pieces"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/ByNYL8S/BUDA-EYE-U.webp",
+    "location": "Coral Gables by SW 42nd Ave & Bird Road",
+    "artist": "Buda and Eye<3U",
+    "category": "space"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/mBLff3b/public-bathroom.webp",
+    "location": "Veza Sur Brewery",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/qkX56Cs/public-electric-box.webp",
+    "location": "NE 24th St",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/Btv8p4b/public-parking.webp",
+    "location": "NW 25th St",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/cCW2gSd/wreckognized-garbage-1.webp",
+    "location": "Parking lot inbetween NW 25th St & Nw 24th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/R2ZsHPn/wreckognized-garbage-2.webp",
+    "location": "Wakefield Brewery NW 24th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/zxyx7v1/wreckognized-garbage-3.webp",
+    "location": "40 NW 26th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/Svny6dY/wreckognized-garbage-4.webp",
+    "location": "NW 23rd St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/K6RmxpT/wreckognized-garbage-5.webp",
+    "location": "Nw 26th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/VL2SrqW/wreckognized-garbage-6.webp",
+    "location": "SE 3rd Ave",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 22,
+    "image": "https://i.ibb.co/7CxHNL7/Metro-trains2.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Rafos",
+    "category": "transit"
+  },
+  {
+    "id": 23,
+    "image": "https://i.ibb.co/hmMRcFk/metro-train3.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Gios",
+    "category": "transit"
+  },
+  {
+    "id": 24,
+    "image": "https://i.ibb.co/qCtK5Vk/Metro-trains4.webp",
+    "location": "SW 77th Ave Miami, FL",
+    "artist": "Rague",
+    "category": "transit"
+  },
+  {
+    "id": 25,
+    "image": "https://i.ibb.co/gw4Cws2/trains-5.webp",
+    "location": "Unknown",
+    "artist": "Apero & Trasr",
+    "category": "transit"
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/X36g0ry/public-street-sign.webp",
+    "location": "Bouganvillea's Old Florida Tavern \"Bougies\" SW 58th Ave, South Miami FL",
+    "artist": "Unknown",
+    "category": "space"
+  }
+]

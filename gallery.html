@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="Styles/index.css" />
+    <link rel="stylesheet" href="Styles/navbar.css" />
+    <link rel="stylesheet" href="Styles/category.css" />
+    <link rel="stylesheet" href="Styles/gallery.css" />
+    <link rel="stylesheet" href="Styles/imageCard.css" />
+
+    <title>Gallery</title>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"> WRECKOGNIZED MIAMI </label>
+      <div class="menu-icon">
+        <p id="menu-icon">&#9776;</p>
+      </div>
+      <ul class="nav-list" id="nav-list">
+        <div>
+          <p>MENU</p>
+          <p id="close-icon">&#10006;</p>
+        </div>
+        <li class="navigation-container">
+          <a class="navigation-link" href="/">HOME</a>
+        </li>
+        <li class="navigation-container">
+          <a class="navigation-link" href="">GALLERY</a>
+        </li>
+        <li class="navigation-container">
+          <a class="navigation-link" href="quiz.html">QUIZ</a>
+        </li>
+        <li class="navigation-container">
+          <a class="navigation-link" href="about.html">ABOUT</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="gallery-container">
+      <section class="gallery">
+        <div class="category">
+          <li data-categoryName="all" class="category-item">All</li>
+          <li data-categoryName="space" class="category-item">Public Space</li>
+          <li data-categoryName="garbage" class="category-item">
+            Wreckognized Garbage
+          </li>
+          <li data-categoryName="transit" class="category-item">
+            Wreckognized Transit
+          </li>
+          <li data-categoryName="pieces" class="category-item">
+            Wynwood Pieces
+          </li>
+        </div>
+        <div class="gallery-images" id="gallery-images"></div>
+      </section>
+    </div>
+
+    <script src="Scripts/gallery.js"></script>
+    <script src="Scripts/navbar.js"></script>
+  </body>
+</html>

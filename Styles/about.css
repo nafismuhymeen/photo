@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
+.about-container {
+  background-color: #f7f7f7;
+}
+
+.about-container .about {
+  padding: 40px;
+}
+
+.about-container .about .profile-image img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-container .about .profile-text div h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: #171717;
+  line-height: 47.6px;
+}
+
+.about-container .about .profile-text div h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #6f6f6f;
+  padding-bottom: 16px;
+}
+
+.about-container .about .profile-text div p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #6f6f6f;
+  margin: 16px 0;
+}
+
+@media screen and (min-width: 650px) {
+  .about-container .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .about-container .about .profile-image {
+    width: 50%;
+  }
+  .about-container .about .profile-image img {
+    max-width: 600px;
+  }
+  .about-container .about .profile-text {
+    width: 50%;
+  }
+  .about-container .about .profile-text div {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .about-container .about .profile-text div h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .about-container .about .profile-text div p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=about.css.map */
