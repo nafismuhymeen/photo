@@ -20,15 +20,19 @@ menuIcon.addEventListener("click", openDrawer);
 closeDrawerIcon.addEventListener("click", closeDrawer);
 navLink.forEach((el) => el.addEventListener("click", closeDrawer));
 
-if (window.location.pathname === "/") {
-  navContainer[0].classList.add("nav-active");
-}
-if (window.location.pathname === "/gallery.html") {
-  navContainer[1].classList.add("nav-active");
-}
-if (window.location.pathname === "/quiz.html") {
-  navContainer[2].classList.add("nav-active");
-}
-if (window.location.pathname === "/about.html") {
-  navContainer[3].classList.add("nav-active");
-}
+const makeUnderLine = () => {
+  if (window.location.pathname === "/") {
+    navContainer[0].classList.add("nav-active");
+  }
+  if (window.location.pathname === "/pages/gallery.html") {
+    navContainer[1].classList.add("nav-active");
+  }
+  if (window.location.pathname === "/pages/quiz.html") {
+    navContainer[2].classList.add("nav-active");
+  }
+  if (window.location.pathname === "/pages/about.html") {
+    navContainer[3].classList.add("nav-active");
+  }
+};
+
+makeUnderLine();
