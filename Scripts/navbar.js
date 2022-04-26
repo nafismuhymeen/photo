@@ -36,3 +36,5 @@ const makeUnderLine = () => {
 };
 
 makeUnderLine();
+
+console.log(window.location.pathname);
